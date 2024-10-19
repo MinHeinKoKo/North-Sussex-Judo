@@ -3,6 +3,7 @@ package models;
 public class WeightCategory {
     private String categoryName;
     private double upperWeightLimit;
+//    public static final WeightCategory HEAVYWEIGHT = new WeightCategory("Heavyweight", 220);
 
     // Constructor
     public WeightCategory(String categoryName, double upperWeightLimit) {
@@ -11,7 +12,7 @@ public class WeightCategory {
     }
 
     // Static constants for weight categories
-    public static final WeightCategory HEAVYWEIGHT = new WeightCategory("Heavyweight", Double.MAX_VALUE);
+    public static final WeightCategory HEAVYWEIGHT = new WeightCategory("Heavyweight", 220);
     public static final WeightCategory LIGHT_HEAVYWEIGHT = new WeightCategory("Light-Heavyweight", 100);
     public static final WeightCategory MIDDLEWEIGHT = new WeightCategory("Middleweight", 90);
     public static final WeightCategory LIGHT_MIDDLEWEIGHT = new WeightCategory("Light-Middleweight", 81);

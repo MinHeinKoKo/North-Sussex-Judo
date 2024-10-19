@@ -33,7 +33,6 @@ public class CostCalculatorService {
     public String compareWeight(Athlete athlete) {
         double currentWeight = athlete.getCurrentWeight();
         double categoryLimit = athlete.getCompetitionCategory().getUpperWeightLimit();
-
         if (currentWeight > categoryLimit) {
             return "Athlete is over the competition weight limit.";
         } else if (currentWeight == categoryLimit) {

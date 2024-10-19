@@ -18,28 +18,22 @@ public class Athlete {
         this.competitionsEntered = competitionsEntered;
         this.privateCoachingHours = privateCoachingHours;
     }
-
     // Getters
     public String getName() {
         return name;
     }
-
     public TrainingPlan getTrainingPlan() {
         return trainingPlan;
     }
-
     public double getCurrentWeight() {
         return currentWeight;
     }
-
     public WeightCategory getCompetitionCategory() {
         return competitionCategory;
     }
-
     public int getCompetitionsEntered() {
         return competitionsEntered;
     }
-
     public int getPrivateCoachingHours() {
         return privateCoachingHours;
     }
